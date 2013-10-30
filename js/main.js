@@ -13,8 +13,8 @@ $(document).ready(function() {
   Morris.Donut({
 	  element: 'frontend',
 	  data: [
-	    {label: "HTML5", value: 4.8},
-	    {label: "CSS3", value: 4.5},
+	    {label: "HTML5", value: 4.5},
+	    {label: "CSS3", value: 4.3},
 	    {label: "JavaScript", value: 4},
 	    {label: "jQuery", value: 4}
 	  ]
