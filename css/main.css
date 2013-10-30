@@ -1,0 +1,194 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.navbar-inverse {
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-inverse {
+	background-color: #222;
+	border-bottom: 3px solid rgb(72,61,139);
+	height: 5%;
+}
+
+.thumbnail {
+	border-radius: 60%;
+	width: 250px;
+	margin-left: 30px;
+}
+
+.thumbnail:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.jumbotron {
+	padding: 5% 5%;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+	background: rgb(107,186,112); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(107,186,112,1) 0%, rgba(107,186,112,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(107,186,112,1)), color-stop(100%,rgba(107,186,112,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=0 ); /* IE6-9 */
+
+
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+
+    font-family: "Lantinghei TC", Hiragino Kaku Gothic Pro, Heiti TC, "微軟正黑體", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif;
+}
+
+.about {
+	padding: 14px 50px;
+}
+
+.about:hover {
+	opacity: 0.9;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: rgb(0,0,0);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: rgb(0,0,0);
+}
+
+.about-img {
+	width: 60%;
+}
+
+.timeline {
+	border-left: 2px solid rgb(0, 0, 0);
+	height: 400px;
+}
+
+.project-item {
+	width: 100%; 
+	border: solid 4px white;
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.project-item:hover {
+	cursor: pointer;
+	border: solid 4px white;
+	-webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
+
+.name {
+	color: white;
+}
+
+.summary {
+	color: rgb(0,100,0);
+}
+
+.quote {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+}
+
+.circle {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 40px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.circle h3 {
+	margin: 30px;
+}
+
+.circle-one {
+	background: rgb(242, 228, 29); 
+}
+
+.circle-two {
+
+	background: rgb(94,191,188);
+}
+
+.circle-three {
+	background: rgb(233,99,0);
+}
+
+.circle-four {
+	background: rgb(110,176,214);
+}
+
+.circle-five {
+	background: rgb(127,193,20);
+}
+
+.position {
+	margin: 30px;
+}
+
+.lab:link {
+	color: rgb(128,128,128);
+}
+.lab:visited {
+	color: rgb(105,105,105);
+}
+.lab:hover {
+	color: rgb(211,211,211);
+	text-decoration: none;
+}
+.lab:active {
+	color: rgb(128,128,128);
+}
+
+#frontend, #backend {
+	width: 250px;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 3%;
+	border-top: 20px solid rgb(0,100,0);
+	background-color: rgb(34,139,34); 
+	margin: 0;
+}
+
+.foot {
+	color: rgb(255,255,255);
+}
+
+@media screen and (max-width: 400px) {
+	.intro {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.intro {
+		display: none;
+	}	
+}
