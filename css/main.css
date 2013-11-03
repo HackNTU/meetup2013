@@ -201,6 +201,9 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+	.name {
+		text-align: center;
+	}
 	.intro {
 		display: none;
 	}
