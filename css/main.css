@@ -185,6 +185,13 @@ body {
 }
 
 .social {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.social:hover {
+	opacity: 0.9;
+	display: inline-block;
 	margin: 0 auto;
 }
 
