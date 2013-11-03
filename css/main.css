@@ -214,6 +214,9 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+	.jumbotron h1 {
+		font-size: 1.5em;
+	}
 	.name {
 		text-align: center;
 	}
@@ -223,6 +226,9 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+	.jumbotron h1 {
+		font-size: 1.5em;
+	}
 	.intro {
 		display: none;
 	}	
@@ -232,5 +238,11 @@ footer {
 
 	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
 		background-color: rgb(72,130,139);
+	}
+}
+
+@media screen and (min-width: 768px){
+	.jumbotron h1 {
+		font-size: 2em;
 	}
 }
