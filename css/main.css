@@ -67,7 +67,7 @@ body {
 }
 
 .about:hover {
-	opacity: 0.8r;
+	opacity: 0.8;
 	color: white;
 	text-decoration: none;
 }
