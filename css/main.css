@@ -184,6 +184,10 @@ body {
 	color: rgb(128,128,128);
 }
 
+.social {
+	margin: 0 auto;
+}
+
 #frontend, #backend {
 	width: 250px;
 }
