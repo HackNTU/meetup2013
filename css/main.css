@@ -249,13 +249,15 @@ footer {
 
 	.thumbnail {
 		width: 200px;
+		display: block;
+		margin: 0 auto;
 	}
 
 	.about:link {
 		font-size: 14px;
 		width: 240px;
-		display: inline-block;
-		text-align: center;
+		display: block;
+		margin: 0px auto;
 	}
 
 }
