@@ -246,6 +246,46 @@ footer {
 	.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
 		background-color: rgb(72,130,139);
 	}
+
+	.thumbnail {
+		border-radius: 60%;
+		width: 200px;
+		margin-left: 30px;
+	}
+	.about:link {
+		display: block;
+		text-align: center;
+		margin-top: 30px;
+		width: 200px;
+		font-size: 14px;
+		padding: 10px 50px;
+		color: white;
+		background: #13A7C7;
+		border: 0;
+		border-bottom: 8px solid #1E90FF;
+		text-decoration: none;
+	}
+
+	.about:visited {
+		padding: 12px 50px;
+		opacity: 0.9;
+		color: white;
+		text-decoration: none;
+	}
+
+	.about:hover {
+		opacity: 0.9;
+		color: white;
+		text-decoration: none;
+	}
+
+	.about:active {
+		padding: 12px 50px;
+		opacity: 0.9;
+		color: white;
+		text-decoration: none;
+	}
+
 }
 
 @media screen and (min-width: 768px){
