@@ -250,12 +250,12 @@ footer {
 	.thumbnail {
 		width: 200px;
 	}
-	
+
 	.about:link {
 		font-size: 14px;
 		width: 240px;
 		display: inline-block;
-		margin: 0 auto;
+		text-align: center;
 	}
 
 }
