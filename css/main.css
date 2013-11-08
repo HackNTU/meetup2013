@@ -248,7 +248,9 @@ footer {
 	}
 
 	.thumbnail {
-		width: 230px;
+		display: inline-block;
+		width: 240px;
+		margin: 0 auto;
 	}
 	.about:link {
 		font-size: 14px;
