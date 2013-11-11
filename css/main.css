@@ -137,6 +137,10 @@ body {
 	font-size: 2em;
 }
 
+.experience {
+	margin: 50px auto;
+}
+
 .circle {
 	display: inline-block;
 	position: relative;
