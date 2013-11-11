@@ -120,7 +120,6 @@ body {
 	-webkit-transition: all 200ms ease-out;
 	-moz-transition: all 200ms ease-out;
 	transition: all 200ms ease-out;
-	margin: 50px auto;
 }
 
 .name {
@@ -182,7 +181,7 @@ body {
 	margin: 30px;
 }
 
-.lab:link {
+/*.lab:link {
 	color: rgb(128,128,128);
 }
 .lab:visited {
@@ -194,6 +193,10 @@ body {
 }
 .lab:active {
 	color: rgb(128,128,128);
+}*/
+
+.education {
+	margin: 70px auto;
 }
 
 .social {
