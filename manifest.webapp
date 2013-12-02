@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "name": "KD.Chang",
+  "description": "Hi, I'm 張凱迪 (KD.Chang) NTU IM Master student, Web Lover and Life Hacker.I am currently studying Web Data Mining in NTU Business Analytics and Economic Impact Research Lab. Besides, I found the first big Hackathon in Taiwan Campus. I'm also the NTU mobile web basic lectuer.",
+  "type": "privileged",
+  "launch_path": "index.html",
+  "developer": {
+    "name": "KD.Chang",
+    "url": "http://kdchang.cc/cv/"
+  },
+  "permissions": {
+    "geolocation": {},
+    "desktop-notification":{},
+    "systemXHR": {},
+    "device-storage:pictures": { "access": "readonly" },
+    "contacts":{ "access": "readcreate" }
+  },
+  "orientation": "portrait-primary",
+  "locales": {
+    "en-US": {
+      "name": "KD.Chang",
+      "description": "Hi, I'm 張凱迪 (KD.Chang)NTU IM Master student, Web Lover and Life Hacker.I am currently studying Web Data Mining in NTU Business Analytics and Economic Impact Research Lab. Besides, I found the first big Hackathon in Taiwan Campus. I'm also the NTU mobile web basic lectuer."
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "16": "./img/app_icon.png",
+    "30": "./img/app_icon.png",
+    "32": "./img/app_icon.png",
+    "48": "./img/app_icon.png",
+    "60": "./img/app_icon.png",
+    "64": "./img/app_icon.png",
+    "128": "./img/app_icon.png"
+  }
+}
+
