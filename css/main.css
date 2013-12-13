@@ -239,6 +239,10 @@ footer {
 	color: rgb(255,255,255);
 }
 
+.fb {
+	width: 1000px;
+}
+
 @media screen and (max-width: 400px) {
 	.jumbotron h1 {
 		font-size: 1.5em;
@@ -248,6 +252,9 @@ footer {
 	}
 	.intro {
 		display: none;
+	}
+	.fb {
+		width: 400px;
 	}
 }
 
