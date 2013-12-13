@@ -240,7 +240,7 @@ footer {
 }
 
 #fb {
-	width: 1000px;
+	width: 70%;
 }
 
 @media screen and (max-width: 400px) {
@@ -254,7 +254,7 @@ footer {
 		display: none;
 	}
 	#fb {
-		width: 400px;
+		width: 70%;
 	}
 }
 
