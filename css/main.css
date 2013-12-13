@@ -46,12 +46,23 @@ body {
 .jumbotron {
 	padding: 10% 5%;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-	background: #5da423;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(1, #18BA41)
+	);
+	background-image: -o-linear-gradient(bottom, #18BA41 100%);
+	background-image: -moz-linear-gradient(bottom, #18BA41 100%);
+	background-image: -webkit-linear-gradient(bottom, #18BA41 100%);
+	background-image: -ms-linear-gradient(bottom, #18BA41 100%);
+	background-image: linear-gradient(to bottom, #18BA41 100%);
+
 
     -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
     box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-	color: white;
+	color: white;r
     font-family: "Lantinghei TC", Hiragino Kaku Gothic Pro, Heiti TC, "微軟正黑體", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif;
 }
 
@@ -221,7 +232,7 @@ footer {
 	padding: 3%;
 	border-top: 20px solid rgb(0,100,0);
 	background-color: rgb(34,139,34); 
-	margin: 50px auto;
+	margin: 100px 0px 0px 0px;
 }
 
 .foot {
