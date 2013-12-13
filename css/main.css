@@ -77,12 +77,14 @@ body {
 	opacity: 0.9;
 	color: white;
 	text-decoration: none;
+	border-bottom: 8px solid #55AA00;
 }
 
 .about:hover {
 	opacity: 0.9;
 	color: white;
 	text-decoration: none;
+	border-bottom: 8px solid #55AA00;
 }
 
 .about:active {
@@ -90,6 +92,7 @@ body {
 	opacity: 0.9;
 	color: white;
 	text-decoration: none;
+	border-bottom: 8px solid #55AA00;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
