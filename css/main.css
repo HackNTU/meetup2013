@@ -239,7 +239,7 @@ footer {
 	color: rgb(255,255,255);
 }
 
-.fb {
+#fb {
 	width: 1000px;
 }
 
@@ -253,7 +253,7 @@ footer {
 	.intro {
 		display: none;
 	}
-	.fb {
+	#fb {
 		width: 400px;
 	}
 }
