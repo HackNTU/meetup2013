@@ -246,7 +246,7 @@ footer {
 	.intro {
 		display: none;
 	}
-	#fb {
+	.fb-like {
 		width: 70%;
 	}
 }
