@@ -230,8 +230,8 @@ footer {
 	color: rgb(255,255,255);
 }
 
-#fb {
-	width: 70%;
+.author {
+	color: #000000;
 }
 
 @media screen and (max-width: 400px) {
