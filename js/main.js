@@ -4,7 +4,7 @@
 
 window.addEventListener('load', hid(), false);
 
-var hid function(){
+function hid(){
 	$('body').css('overflow-x', 'hidden');
 }
 
