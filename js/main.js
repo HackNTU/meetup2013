@@ -10,7 +10,9 @@ $(document).ready(function() {
   	  easing: 'swing' 
     });
   }
-  // document.addEventListener('touchstart', function(){alert('Hi')}, false);
+  // document.addEventListener('touchstart', function(){
+  // 	window.
+  // }, false);
 
 });
 
