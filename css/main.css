@@ -46,17 +46,17 @@ body {
 .jumbotron {
 	padding: 10% 5%;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		color-stop(1, #18BA41)
-	);
-	background-image: -o-linear-gradient(bottom, #18BA41 100%);
-	background-image: -moz-linear-gradient(bottom, #18BA41 100%);
-	background-image: -webkit-linear-gradient(bottom, #18BA41 100%);
-	background-image: -ms-linear-gradient(bottom, #18BA41 100%);
-	background-image: linear-gradient(to bottom, #18BA41 100%);
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #41AB76)
+);
+background-image: -o-linear-gradient(bottom, #41AB76 0%);
+background-image: -moz-linear-gradient(bottom, #41AB76 0%);
+background-image: -webkit-linear-gradient(bottom, #41AB76 0%);
+background-image: -ms-linear-gradient(bottom, #41AB76 0%);
+background-image: linear-gradient(to bottom, #41AB76 0%);
 
 
     -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
