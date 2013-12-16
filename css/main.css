@@ -107,11 +107,6 @@ body {
 	width: 60%;
 }
 
-.timeline {
-	border-left: 2px solid rgb(0, 0, 0);
-	height: 400px;
-}
-
 .project-item {
 	width: 100%; 
 	border: solid 4px white;
@@ -141,84 +136,6 @@ body {
 	margin: 50px auto;
 	text-align: center;
 	font-size: 2em;
-}
-
-.experience {
-	margin: 70px auto;
-}
-
-.circle {
-	display: inline-block;
-	position: relative;
-	top: 10px;
-	left: 40px;
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	text-align: center;
-	vertical-align: bottom;
-}
-
-.circle h3 {
-	margin: 30px;
-}
-
-.circle-one {
-	background: rgb(242, 228, 29); 
-}
-
-.circle-two {
-
-	background: rgb(94,191,188);
-}
-
-.circle-three {
-	background: rgb(233,99,0);
-}
-
-.circle-four {
-	background: rgb(110,176,214);
-}
-
-.circle-five {
-	background: rgb(127,193,20);
-}
-
-.position {
-	margin: 30px;
-}
-
-/*.lab:link {
-	color: rgb(128,128,128);
-}
-.lab:visited {
-	color: rgb(105,105,105);
-}
-.lab:hover {
-	color: rgb(211,211,211);
-	text-decoration: none;
-}
-.lab:active {
-	color: rgb(128,128,128);
-}*/
-
-.education {
-	margin: 70px auto;
-}
-
-.social {
-	display: inline-block;
-	margin: 0 auto;
-}
-
-.social:hover {
-	opacity: 0.9;
-	display: inline-block;
-	margin: 0 auto;
-}
-
-#frontend, #backend {
-	width: 250px;
 }
 
 footer {
